@@ -1,9 +1,11 @@
 <script setup lang="ts">
-const appConfig = useAppConfig()
+
 </script>
 
 <template>
-  <h1 style="color: aliceblue">Main page</h1>
+  <div>
+    <h1>Footer</h1>
+  </div>
 </template>
 
 <style scoped>
