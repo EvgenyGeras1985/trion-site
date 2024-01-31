@@ -3,33 +3,28 @@
 </script>
 
 <template>
-  <div class="video-bg">
     <video class="video-bg__media"
-           src="@/assets/video/shortWebMZerkala.mp4"
-           type="video/mp4"
+           src="@/assets/video/shortWebMZerkala.webm"
+           type="video/webm"
            muted="muted"
            autoplay="autoplay"
            loop
     >
     </video>
-  </div>
 </template>
 
 <style scoped lang="scss">
 @import "assets/scss/_global";
-.video-bg{
+video{
   display: none;
 }
 
 @include breakpoint(large) {
-  .video-bg{
-    width: 100%;
-    height: 70%;
-    @include flex-center;
-
-    &__media{
-      width: 100%;
-    }
+  video {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
 </style>

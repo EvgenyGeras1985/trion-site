@@ -5,7 +5,6 @@ import Logo from "~/components/Logo.vue";
 <template>
   <div class="layout">
     <Logo />
-    <custom-social />
     <AppHeader />
     <slot />
     <AppFooter />

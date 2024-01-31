@@ -20,8 +20,8 @@ import { Icon } from '@iconify/vue';
 @import "assets/scss/_global";
 .social{
   z-index: 10;
-  position: fixed;
-  bottom: 20px;
+  position: absolute;
+  top: 130px;
   width: 80%;
   height: 30px;
   margin-left: auto;

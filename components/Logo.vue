@@ -11,6 +11,7 @@
 <style scoped lang="scss">
 @import "assets/scss/_global";
 .logo{
+  z-index: 30;
   position: fixed;
   //text align-center
   margin-left: auto;

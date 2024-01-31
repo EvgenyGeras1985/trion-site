@@ -1,9 +1,9 @@
 <script setup lang="ts">
-
+import PhotoGallery from "~/components/GalleryPage/photo-gallery.vue";
 </script>
 
 <template>
-<h1 style="color: aliceblue">Media page</h1>
+  <photo-gallery />
 </template>
 
 <style scoped lang="scss">

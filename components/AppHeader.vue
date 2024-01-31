@@ -5,6 +5,7 @@
 <template>
   <header>
     <Nav></Nav>
+    <custom-social></custom-social>
   </header>
 </template>
 

@@ -5,7 +5,7 @@
 .nitro
 .cache
 dist
-assets/video/shortWebMZerkala.mp4
+assets/video/shortWebMZerkala.webm
 
 # Node dependencies
 node_modules
