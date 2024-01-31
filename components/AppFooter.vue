@@ -3,11 +3,24 @@
 </script>
 
 <template>
-  <div>
-    <h1>Footer</h1>
-  </div>
+  <footer>
+    <h3>Официальный сайт группы "ТРИОН" 2024 &copy;</h3>
+  </footer>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+@import "assets/scss/_global";
+footer{
+  width: 100%;
+  height: 2%;
+}
 
+
+@include breakpoint(large) {
+  footer{
+    //height: 2%;
+    @include flex-center;
+    background: none;
+  }
+}
 </style>

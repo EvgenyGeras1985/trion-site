@@ -5,6 +5,7 @@ import Logo from "~/components/Logo.vue";
 <template>
   <div class="layout">
     <Logo />
+    <custom-social />
     <AppHeader />
     <slot />
     <AppFooter />
@@ -15,7 +16,7 @@ import Logo from "~/components/Logo.vue";
 @import 'assets/scss/_global.scss';
 
 .layout{
-  background: $color-primary-purple center;
+  background: $color-primary-layoutBG center;
   background-size: cover;
   width: 100%;
   height: 100vh;
