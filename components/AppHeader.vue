@@ -19,7 +19,7 @@ header{
 
 @include breakpoint(large) {
   header{
-    position: relative;
+    position: absolute;
     margin: auto;
   }
 }

@@ -13,7 +13,7 @@
 footer{
   position: absolute;
   margin: auto;
-  bottom: 20px;
+  bottom: 10px;
   left: 0;
   right: 0;
   text-align: center;
@@ -27,7 +27,6 @@ footer{
 @include breakpoint(large) {
   footer{
     width: 100%;
-    bottom: 10px;
   }
 }
 </style>

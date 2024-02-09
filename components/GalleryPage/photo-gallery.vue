@@ -7,9 +7,6 @@ import GalleryCard from "~/components/GalleryPage/gallery-card.vue";
     <div class="wrapper__roundabout">
       <div class="wrapper__track" ref="track">
         <gallery-card class="wrapper__item" >asdasd</gallery-card>
-        <gallery-card class="wrapper__item" >asdasd</gallery-card>
-        <gallery-card class="wrapper__item" >asdasd</gallery-card>
-        <gallery-card class="wrapper__item" >asdasd</gallery-card>
       </div>
     </div>
     <button  @click="prev()" class="wrapper__arrow-left">Prev</button>
