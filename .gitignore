@@ -6,6 +6,7 @@
 .cache
 dist
 assets/video/shortWebMZerkala.webm
+assets/images/
 
 # Node dependencies
 node_modules

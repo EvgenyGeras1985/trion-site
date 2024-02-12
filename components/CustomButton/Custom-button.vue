@@ -11,7 +11,7 @@
 <style scoped lang="scss">
 @import "assets/scss/_global";
 .link{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: bolder;
   outline: none;
   text-decoration: none;
@@ -28,7 +28,7 @@
 
 @include breakpoint(large) {
   .link{
-
+    font-size: 1.6rem;
   }
 }
 </style>

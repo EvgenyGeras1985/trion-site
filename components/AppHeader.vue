@@ -5,7 +5,6 @@
 <template>
   <header>
     <Nav></Nav>
-<!--    <custom-social></custom-social>-->
   </header>
 </template>
 
@@ -19,7 +18,7 @@ header{
 
 @include breakpoint(large) {
   header{
-    position: absolute;
+    position: fixed;
     margin: auto;
   }
 }

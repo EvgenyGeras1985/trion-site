@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 import CustomButton from "~/components/CustomButton/Custom-button.vue";
 </script>
 
@@ -24,7 +23,7 @@ nav{
   nav{
     position: absolute;
     top: 100px;
-    right: 100px;
+    right: 400px;
     width: 50%;
     opacity: 1;
   }

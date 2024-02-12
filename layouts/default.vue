@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Logo from "~/components/Logo.vue";
-import VideoBackground from "~/components/videoBack/video-background.vue";
 </script>
 
 <template>

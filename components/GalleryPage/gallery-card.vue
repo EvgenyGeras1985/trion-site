@@ -1,10 +1,14 @@
 <script setup lang="ts">
+import {CustomPhotosCard} from "@/types/CustomPhotosCard";
 
+const props = defineProps<{
+  listPhotos: CustomPhotosCard[],
+}>()
 </script>
 
 <template>
-  <div class="card">
-    <img src="#" alt="" />
+  <div class="card" v-for="item in listPhotos">
+    <img :src="item.img" alt="trion photo" />
   </div>
 </template>
 
@@ -18,7 +22,7 @@
     height: 32.0rem;
 
     img{
-      border: 1px solid #ef3636;
+      border: 2px solid #dedede;
       border-radius: 50px;
       width: 100%;
       height: 100%;

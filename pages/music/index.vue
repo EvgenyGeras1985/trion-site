@@ -4,9 +4,7 @@
 
 <template>
   <div class="music-page">
-    <audio controls src="@/assets/songs/fantom.mp3" >
 
-    </audio>
   </div>
 </template>
 
