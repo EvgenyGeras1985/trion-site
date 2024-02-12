@@ -3,9 +3,13 @@ const appConfig = useAppConfig()
 </script>
 
 <template>
-  <h1>Hello app</h1>
+    <main-page />
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+@import "assets/scss/_global";
+
+@include breakpoint(large) {
+}
 
 </style>
