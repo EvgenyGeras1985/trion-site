@@ -4,6 +4,7 @@
 
 <template>
   <footer>
+    <custom-social></custom-social>
     <h3>Официальный сайт группы "ТРИОН" 2024 &copy;</h3>
   </footer>
 </template>
@@ -11,16 +12,20 @@
 <style scoped lang="scss">
 @import "assets/scss/_global";
 footer{
-  position: absolute;
-  margin: auto;
-  bottom: 10px;
-  left: 0;
-  right: 0;
-  text-align: center;
-  width: 80%;
-  height: 50px;
-  color: #888888;
-  text-shadow: 1px 1px 2px #c9bbbb, 0 0 1em #6e6e6e, 0 0 0.2em #000000;
+  width: 100%;
+  height: 500px;
+  color: #d2d2d2;
+  background: $color-primary-footerBG;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items:center;
+
+  h3{
+    width: 50%;
+    min-height: 20px;
+    text-align: center;
+  }
 }
 
 
